@@ -248,21 +248,25 @@ object Huffman {
    * sub-trees, think of how to build the code table for the entire tree.
    */
   def convert(tree: CodeTree): CodeTable = {
-    convertIter(itree, List())
-    def convertIter(itree: CodeTree, res: List[Bit]): CodeTable = {
-      itree match {
-        Fork(l, r, chs, w) => convertIter(l, res:::List(0)):::convertIter(r, res:::List(1))
-        Leaf(ch, w) => List((ch, res))
-      }
+    itree match {
+      Leaf(ch, w) => List((ch, List()))
+      Fork(l, r, chs, w) => mergeCodeTables(convert(l), convert(r))
     }
   }
 
   /**
    * This function takes two code tables and merges them into one. Depending on how you
-   * use it in the `convert` method above, this merge method might also do some transformations
+   * use it in the `convert` method above, this merge met hod might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
+    a.map(ct: CodeTable => addLeadingBit(ct, 0)):::b.map(ct: CodeTable => addLeadingBit(ct, 1))
+    def addLeadingBit(ct: CodeTable, i: Int): (Char, List[Bit]) = {
+      ct match {
+        (ch, lst) => (ch, i::lst)
+      }
+    }
+  }
 
   /**
    * This function encodes `text` according to the code tree `tree`.
