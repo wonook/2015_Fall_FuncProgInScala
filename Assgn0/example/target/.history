@@ -1,0 +1,13 @@
+console
+submit wonwook.song@epfl.ch CjmYf8nMBt
+console
+test
+console
+test
+submit wonwook.song@epfl.ch     def loop(runningMax: Int, xs: List[Int]): Int = {
+      if (xs.isEmpty) runningMax
+      else if (runningMax > xs.head) loop(runningMax, xs.tail)
+      else loop(xs.head, xs.tail)
+    }
+    if (xs.isEmpty) throw new NoSuchElementException("Empty list")
+submit wonwook.song@epfl.ch CjmYf8nMBt 
