@@ -75,17 +75,16 @@ object Huffman {
    *   }
    */
   def times(chars: List[Char]): List[(Char, Int)] = {
-    if(chars.isEmpty) List()
-    else if(times(chars.tail).exists(elem: (Char, Int) => elem._1 == chars.head)) {
-      times(chars.tail).foreach(elem: (Char, Int) => {
-        if(elem._1 == chars.head) {
-          elem._2 += 1
-          elem
-        } else {
-          elem
-        }
-      })
-    } else (chars.head, 1)::times(chars.tail)
+    def timesIter(chs: List[Char]): List[(Char, Int)] = {
+      if(chs.isEmpty) List()
+      else{
+        val res = timesIter(chs.tail)
+        if(res.head._1 == chs.head) (res.head._1, res.head._2 + 1)::res.tail
+        else (chs.head, 1)::res
+      }
+    }
+    val chs = chars.sorted
+    timesIter(chs)
   }
 
   /**
@@ -97,7 +96,7 @@ object Huffman {
    */
   def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
     if(freqs.isEmpty) List()
-    else (Leaf(freqs.head._1, freqs.head._2)::makeOrderedLeafList(freqs.tail)).sortWith((p1: (Char, Int), p2: (Char, Int)) => p1._2 < p2._2)
+    else (Leaf(freqs.head._1, freqs.head._2)::makeOrderedLeafList(freqs.tail)).sortWith((p1: Leaf, p2: Leaf) => weight(p1) < weight(p2))
   }
 
   /**
@@ -144,7 +143,7 @@ object Huffman {
    */
   def until(singleton: List[CodeTree] => Boolean, combine: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): CodeTree = {
     if(singleton(trees)) trees.head
-    else combine(trees)
+    else until(singleton, combine)(combine(trees))
   }
 
 
@@ -170,11 +169,6 @@ object Huffman {
    * the resulting list of characters.
    */
   def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
-    if(bits.isEmpty) List()
-    else {
-      val next = findNextLetter(tree, bits)
-      (next._1)::decode(tree, next._2)
-    }
     def findNextLetter(itree: CodeTree, bits: List[Bit]): (Char, List[Bit]) = {
       itree match {
         case Fork(l, r, chs, w) => {
@@ -183,6 +177,11 @@ object Huffman {
         }
         case Leaf(ch, w) => (ch, bits)
       }
+    }
+    if(bits.isEmpty) List()
+    else {
+      val next = findNextLetter(tree, bits)
+      (next._1)::decode(tree, next._2)
     }
   }
 
@@ -212,18 +211,15 @@ object Huffman {
    * into a sequence of bits.
    */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+    def findCharBits(itree: CodeTree, ch: Char): List[Bit] = itree match {
+      case Leaf(ch, w) => List()
+      case Fork(l, r, chs, w) if(chars(l).contains(ch)) => 0::findCharBits(l, ch)
+      case Fork(l, r, chs, w) if(chars(r).contains(ch)) => 1::findCharBits(r, ch)
+      case _ => List()
+    }
     if(text.isEmpty) List()
     else {
-      findCharBits(tree, text.head, List()):::encode(tree)(text.tail)
-    }
-    def findCharBits(itree: CodeTree, ch: Char, res: List[Bit]): List[Bit] = {
-      itree match {
-        case Fork(l, r, chs, w) => {
-          if(chars(l).exists((c: Char) => c == ch)) findCharBits(l, ch, res:::List(0))
-          else if(chars(r).exists((c: Char) => c == ch)) findCharBits(r, ch, res:::List(1))  
-        }
-        case Leaf(ch, w) => res
-      }
+      findCharBits(tree, text.head):::encode(tree)(text.tail)
     }
   }
 
@@ -248,9 +244,9 @@ object Huffman {
    * sub-trees, think of how to build the code table for the entire tree.
    */
   def convert(tree: CodeTree): CodeTable = {
-    itree match {
-      Leaf(ch, w) => List((ch, List()))
-      Fork(l, r, chs, w) => mergeCodeTables(convert(l), convert(r))
+    tree match {
+      case Leaf(ch, w) => List((ch, List()))
+      case Fork(l, r, chs, w) => mergeCodeTables(convert(l), convert(r))
     }
   }
 
@@ -260,12 +256,10 @@ object Huffman {
    * on the two parameter code tables.
    */
   def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
-    a.map(ct: CodeTable => addLeadingBit(ct, 0)):::b.map(ct: CodeTable => addLeadingBit(ct, 1))
-    def addLeadingBit(ct: CodeTable, i: Int): (Char, List[Bit]) = {
-      ct match {
-        (ch, lst) => (ch, i::lst)
-      }
+    def addLeadingBit(i: Int)(c: (Char, List[Bit])): (Char, List[Bit]) = {
+      (c._1, i::c._2)
     }
+    a.map(addLeadingBit(0)):::b.map(addLeadingBit(1))
   }
 
   /**
