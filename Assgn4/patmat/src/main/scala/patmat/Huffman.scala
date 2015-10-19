@@ -79,7 +79,7 @@ object Huffman {
       if(chs.isEmpty) List()
       else{
         val res = timesIter(chs.tail)
-        if(res.head._1 == chs.head) (res.head._1, res.head._2 + 1)::res.tail
+        if(!res.isEmpty && res.head._1 == chs.head) (res.head._1, res.head._2 + 1)::res.tail
         else (chs.head, 1)::res
       }
     }
@@ -154,9 +154,7 @@ object Huffman {
    * frequencies from that text and creates a code tree based on them.
    */
   def createCodeTree(chars: List[Char]): CodeTree = {
-    val freqs = times(chars)
-    val trees = makeOrderedLeafList(freqs)
-    until(singleton, combine)(trees)
+    until(singleton, combine)(makeOrderedLeafList(times(chars)))
   }
 
 
