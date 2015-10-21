@@ -110,17 +110,14 @@ object Anagrams {
    *  in the example above could have been displayed in some other order.
    */
   def combinations(occurrences: Occurrences): List[Occurrences] = {
-    if(occurrences.isEmpty) List(List())
-    else{
-      lazy val combtail = combinations(occurrences.tail)
-      var res = List[List[(Char, Int)]]()
-      var i = 0
-      for(i <- 0 to occurrences.head._2) {
-        if(i==0) res = combtail:::res
-        else res = combtail.map((e) => (occurrences.head._1, i)::e):::res
+    def combSubFunc(occurrences: Occurrences): IndexedSeq[Occurrences] = {
+      if(occurrences.isEmpty) IndexedSeq(List())
+      else{
+        lazy val combtail = combSubFunc(occurrences.tail)
+        for(i <- 0 to occurrences.head._2; j <- combtail) yield (occurrences.head._1, i)::j
       }
-      res.distinct
     }
+    combSubFunc(occurrences).toList.map((e) => e.filterNot((el) => el._2 == 0)).distinct
   }
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
