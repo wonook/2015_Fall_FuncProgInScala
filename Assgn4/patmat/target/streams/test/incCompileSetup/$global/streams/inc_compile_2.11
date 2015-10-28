@@ -1,0 +1,245 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -optimise
+3 -> -Yinline-warnings
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+32 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$1$$anon$1.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$1.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$10$$anon$6.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$10.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$11$$anon$7.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$11.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$12$$anon$8.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$12.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$13$$anon$9.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$13.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10$$anonfun$18.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10$$anonfun$19.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$15.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$16.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$17.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$2$$anon$2.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$2.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$3.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$4.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$5.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6$$anon$3.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$7.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$8$$anon$4.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$8.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$9$$anon$5.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$9.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$TestTrees$class.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$TestTrees.class
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite.class
+binary dependencies:
+4 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/.ivy2/cache/junit/junit/jars/junit-4.10.jar
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> /Users/wonook/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+1 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.Huffman$
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+32 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$1
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$1$$anon$1
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$10
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$10$$anon$6
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$11
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$11$$anon$7
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$12
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$12$$anon$8
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$13
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$13$$anon$9
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$14
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$14$$anon$10
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$14$$anon$10$$anonfun$18
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$14$$anon$10$$anonfun$19
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$15
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$16
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$17
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$2
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$2$$anon$2
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$3
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$4
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$5
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$6
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$6$$anon$3
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$7
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$8
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$8$$anon$4
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$9
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$$anonfun$9$$anon$5
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$TestTrees
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat.HuffmanSuite$TestTrees$class
+used names:
+63 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> $anon
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> $org_scalatest_assert_macro_expr
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> $org_scalatest_assert_macro_left
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> $org_scalatest_assert_macro_right
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> <init>
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> ==
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> ===
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> AnyRef
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Bit
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Bool
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Char
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Equality
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> FunSuite
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Huffman
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> HuffmanSuite
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Int
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> JUnitRunner
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> List
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Predef
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> RunWith
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> TestTrees
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> Tuple2
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> apply
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> assert
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> assertionsHelper
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> augmentString
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> binaryMacroBool
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> chars
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> combine
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> convert
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> convertToEqualizer
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> createCodeTree
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> cs
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> decode
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> default
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> encode
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> frenchCode
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> frenchFreq
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> immutable
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> junit
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> leaflist
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> macroAssert
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> makeOrderedLeafList
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> org
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> package
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> patmat
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> quickEncode
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> runner
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> scala
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> scalactic
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> scalatest
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> singleton
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> size
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> string2Chars
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> t1
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> t1Tree
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> t2
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> test
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> toEncode
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> toList
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> tree
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> until
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> weight
+product stamps:
+32 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$1$$anon$1.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$1.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$10$$anon$6.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$10.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$11$$anon$7.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$11.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$12$$anon$8.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$12.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$13$$anon$9.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$13.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10$$anonfun$18.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10$$anonfun$19.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14$$anon$10.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$14.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$15.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$16.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$17.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$2$$anon$2.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$2.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$3.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$4.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$5.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6$$anon$3.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$7.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$8$$anon$4.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$8.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$9$$anon$5.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$9.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$TestTrees$class.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite$TestTrees.class -> lastModified(1445285688000)
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/target/scala-2.11/test-classes/patmat/HuffmanSuite.class -> lastModified(1445285688000)
+source stamps:
+1 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> hash(866f27661a721cd298770a7562ca88cb3b86dcb3)
+binary stamps:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1433812782000)
+/Users/wonook/.ivy2/cache/junit/junit/jars/junit-4.10.jar -> lastModified(1317323535000)
+/Users/wonook/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar -> lastModified(1420590731000)
+/Users/wonook/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar -> lastModified(1422515758000)
+class names:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/wonook/.ivy2/cache/junit/junit/jars/junit-4.10.jar -> org.junit.runner.RunWith
+/Users/wonook/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar -> scala.Product
+/Users/wonook/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar -> org.scalatest.FunSuite
+internal apis:
+1 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCVdjOhAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwP7YWinQAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC5ESIpV0ABJjb252ZXJ0VG9FcXVhbGl6ZXJ1cQB+AAkAAABsc3EAfgAL2649SnQABmFzc2VydHNxAH4ACxu1Cr10AAZub3RpZnlzcQB+AAuu1+wBdAAmbG93UHJpb3JpdHlDb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAvw69vVdAAQQXNzZXJ0aW9uc0hlbHBlcnNxAH4ACwovft10AAZjYW5jZWxzcQB+AAtkIHwadAAEdGVzdHNxAH4AC2mTkO50ABFleGVjdXRlJGRlZmF1bHQkMnNxAH4AC9Gl+fV0AAxleHBlY3RSZXN1bHRzcQB+AAtshJkjdAAJaW50ZXJjZXB0c3EAfgALs6qpw3QABGZhaWxzcQB+AAvrHGUXdAAEbmFtZXNxAH4AC5atQyN0ABRhc3NlcnREb2VzTm90Q29tcGlsZXNxAH4AC1osfnp0ABFleGVjdXRlJGRlZmF1bHQkNHNxAH4AC7x61rt0AAdleGVjdXRlc3EAfgALcfcNvXQABHdhaXRzcQB+AAv5rQPXdAALdGVzdERhdGFGb3JzcQB+AAtLQubWdAATY3JlYXRlQ2F0Y2hSZXBvcnRlcnNxAH4ACyaIQlp0AAlzdHlsZU5hbWVzcQB+AAs5U1n/dAANJGFzSW5zdGFuY2VPZnNxAH4AC0JXZEl0ABFleGVjdXRlJGRlZmF1bHQkM3NxAH4AC3x1i8R0AAljb25maWdNYXBzcQB+AAsYkyzSdAALZGlmZlN0cmluZ3NzcQB+AAuvfBZ2dAAGZXF1YWxzc3EAfgALtWuaX3QALGNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnZlcnNpb25Db25zdHJhaW50c3EAfgAL11Kk53QAD2RlZmF1bHRFcXVhbGl0eXNxAH4AC+Uu3eZ0AApmcmVuY2hGcmVxc3EAfgALNQuIZXQAImNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnN0cmFpbnRzcQB+AAtEK/0gdAAEdGFnc3NxAH4AC5d4+zB0AAxhc0luc3RhbmNlT2ZzcQB+AAtVdNzqdAAFYWxlcnRzcQB+AAvfXlPZdAADcnVuc3EAfgALfRBva3QAD0xlZ2FjeUVxdWFsaXplcnNxAH4AC6y2QOF0AAZzY29wZXNzcQB+AAsW4IeLdAAYY29udmVydFRvTGVnYWN5RXF1YWxpemVyc3EAfgALa6FM83QADHN5bmNocm9uaXplZHNxAH4AC5cRIXl0AA5hc3NlcnRDb21waWxlc3NxAH4AC8i7ss10AA0kaXNJbnN0YW5jZU9mc3EAfgALt8xg3HQABHRyYXBzcQB+AAtttdIydAAVdGVzdERhdGFGb3IkZGVmYXVsdCQyc3EAfgALhSDL63QADGFzc2VydFJlc3VsdHNxAH4ACw9R0vp0AAlUZXN0VHJlZXNzcQB+AAtaqFeEdAAEdGV4dHNxAH4AC4iJFrp0ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb252ZXJzaW9uQ29uc3RyYWludHNxAH4ACxeOe1J0ABFleGVjdXRlJGRlZmF1bHQkN3NxAH4AC67I6Wd0ABV0eXBlQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAvC1Tj2dAADIT09c3EAfgALffO/u3QABGluZm9zcQB+AAtc56GEdAAJbm90aWZ5QWxsc3EAfgALsr6TEXQAC3dpdGhGaXh0dXJlc3EAfgALp19MmnQAB3J1blRlc3RzcQB+AAtJ1HmMdAAMaXNJbnN0YW5jZU9mc3EAfgAL1SPNCnQACHdpdGhDbHVlc3EAfgALthJMbXQAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAve9bejdAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAvGgIZRdAAPYXNzZXJ0VHlwZUVycm9yc3EAfgALvBPFtHQABm1hcmt1cHNxAH4AC3IW4zR0AAhsZWZ0U2lkZXNxAH4AC/u5aPV0AAJ0MnNxAH4ACxg5sWl0AAY8aW5pdD5zcQB+AAvxQanvdAALbWFjcm9Bc3N1bWVzcQB+AAuEZN4pdAAPcnVuTmVzdGVkU3VpdGVzc3EAfgALAih2WHQABWFwcGx5c3EAfgALua9K1nQACUVxdWFsaXplcnNxAH4AC3Eux0d0ABtuZXdBc3NlcnRpb25GYWlsZWRFeGNlcHRpb25zcQB+AAvJcRlvdAAEbm90ZXNxAH4AC+dJJfB0AAI9PXNxAH4AC7YtGgN0AAVjbG9uZXNxAH4AC+rkWWx0AAZleHBlY3RzcQB+AAvkHDpRdAAMSHVmZm1hblN1aXRlc3EAfgAL2vOK9HQADG5lc3RlZFN1aXRlc3NxAH4ACz9bTNB0AAZhc3N1bWVzcQB+AAvTnPhZdAAGJGluaXQkc3EAfgALYCi2RHQAIGxvd1ByaW9yaXR5VHlwZUNoZWNrZWRDb25zdHJhaW50c3EAfgALw+ipe3QADHJlZ2lzdGVyVGVzdHNxAH4ACwSyZvV0ABFleGVjdXRlJGRlZmF1bHQkNXNxAH4AC2Rk5h90AAM9PT1zcQB+AAsQsp60dAAYbmV3VGVzdENhbmNlbGVkRXhjZXB0aW9uc3EAfgALI2gjKHQACHRvU3RyaW5nc3EAfgAL+uXbR3QACXRlc3ROYW1lc3NxAH4AC25WITZ0ABFleGVjdXRlJGRlZmF1bHQkMXNxAH4ACzHjI8B0AAIhPXNxAH4AC3lM7hx0ABdMZWdhY3lDaGVja2luZ0VxdWFsaXplcnNxAH4ACx1Py0Z0AAhnZXRDbGFzc3NxAH4AC2y8w0R0ABNyZWdpc3Rlcklnbm9yZWRUZXN0c3EAfgAL1Qgfx3QACHRlc3RzRm9yc3EAfgALkgO7enQACHJ1blRlc3Rzc3EAfgALJOBGfHQAEXBlbmRpbmdVbnRpbEZpeGVkc3EAfgALSmfeL3QAEWV4cGVjdGVkVGVzdENvdW50c3EAfgALqhErbnQACHJlcnVubmVyc3EAfgAL5GcjiHQAAnQxc3EAfgALq5id+3QAImNvbnZlcnRFcXVpdmFsZW5jZVRvQlRvQUNvbnN0cmFpbnRzcQB+AAvMSQ9KdAACbmVzcQB+AAvg6F7HdAARQ2hlY2tpbmdFcXVhbGl6ZXJzcQB+AAsYOM+MdAAgY29udmVydFRvTGVnYWN5Q2hlY2tpbmdFcXVhbGl6ZXJzcQB+AAtfGkA+dAAHcGVuZGluZ3NxAH4AC4Uyfnd0AAZpZ25vcmVzcQB+AAu+UAPZdAALbWFjcm9Bc3NlcnRzcQB+AAv/W1W7dAACZXFzcQB+AAu8AlKwdAAbZ2V0T2JqZWN0c0ZvckZhaWx1cmVNZXNzYWdlc3EAfgALJIBICXQAGmNvbnZlcnRUb0NoZWNraW5nRXF1YWxpemVyc3EAfgALgfubgXQACU5vQXJnVGVzdHNxAH4AC0h9UgB0AAIjI3NxAH4AC9Eo5bl0AAhmaW5hbGl6ZXNxAH4AC4ttBYR0ABtjb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAtT2VKYdAAIaGFzaENvZGVzcQB+AAtPYv7NdAAHc3VpdGVJZHNxAH4ACzA6o150AAlzdWl0ZU5hbWVzcQB+AAtbIjRBdAAGYXBwZW5kc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4A83hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2V0ABBMeHNidGkvYXBpL1R5cGU7eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQABXZhbHVldAAoY2xhc3NPZltvcmcuc2NhbGF0ZXN0Lmp1bml0LkpVbml0UnVubmVyXXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdSdW5XaXRoc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgEMc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+ARh0AAVqdW5pdHNxAH4BGHQABnJ1bm5lcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgEZc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATcGF0bWF0Lkh1ZmZtYW5TdWl0ZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAJ3NjYWxhLnJlZmxlY3QubWFjcm9zLmludGVybmFsLm1hY3JvSW1wbHQAEHNjYWxhLmRlcHJlY2F0ZWRzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+ATB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AQxzcQB+AS8AcHNxAH4BNHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgDzTAAJaW5oZXJpdGVkcQB+APNMAAdwYXJlbnRzcQB+APN4cQB+AQ1zcQB+AS8AcHNxAH4BNHVxAH4A7gAAAABzcQB+AS8AcHNxAH4BNHVxAH4A7gAAAABzcQB+AS8AcHNxAH4BNHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAPc3EAfgEKdAAIRnVuU3VpdGVzcQB+ARBzcQB+ARN1cQB+ARYAAAADc3EAfgEYdAADb3Jnc3EAfgEYdAAJc2NhbGF0ZXN0cQB+ASFzcQB+AQp0AAxGdW5TdWl0ZUxpa2VxAH4BSHNxAH4BCnQAC0RvY3VtZW50aW5ncQB+AUhzcQB+AQp0AAhBbGVydGluZ3EAfgFIc3EAfgEKdAAJTm90aWZ5aW5ncQB+AUhzcQB+AQp0AAlJbmZvcm1pbmdxAH4BSHNxAH4BCnQAEFRlc3RSZWdpc3RyYXRpb25xAH4BSHNxAH4BCnQABVN1aXRlcQB+AUhzcQB+AQp0AAxTZXJpYWxpemFibGVzcQB+ARBzcQB+ARN1cQB+ARYAAAADc3EAfgEYdAAEamF2YXNxAH4BGHQAAmlvcQB+ASFzcQB+AQp0AA1BYnN0cmFjdFN1aXRlcQB+AUhzcQB+AQp0AApBc3NlcnRpb25zcQB+AUhzcQB+AQp0AAxUcmlwbGVFcXVhbHNzcQB+ARBzcQB+ARN1cQB+ARYAAAADc3EAfgEYdAADb3Jnc3EAfgEYdAAJc2NhbGFjdGljcQB+ASFzcQB+AQp0ABNUcmlwbGVFcXVhbHNTdXBwb3J0cQB+AWxzcQB+AQp0AAZPYmplY3RzcQB+ARBzcQB+ARN1cQB+ARYAAAADc3EAfgEYcQB+AWNzcQB+ARh0AARsYW5ncQB+ASFzcQB+AQp0AANBbnlzcQB+ARBzcQB+ARN1cQB+ARYAAAACc3EAfgEYdAAFc2NhbGFxAH4BIXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABnBhdG1hdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIG9bBJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABwL1VzZXJzL3dvbm9vay9TZWFmaWxlL0NvZGluZy9TY2FsYVByb2dyYW1taW5nL0Z1bmN0aW9uYWxQcm9ncmFtbWluZy9Bc3NnbjQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIZvJ2YachzSmHcKdWLKiMs7htyz
+external apis:
+1 items
+patmat.Huffman$ -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCA0wZBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAP3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBBqRuZ0AAZub3RpZnlzcQB+AAzj40CDdAAMbWFrZUNvZGVUcmVlc3EAfgAMMNffwHQABnNlY3JldHNxAH4ADPnmDgl0AAd1bmFwcGx5c3EAfgAMppAJRHQABmVuY29kZXNxAH4ADGGw/o10AAZ3ZWlnaHRzcQB+AAx7QHfadAAHY3VycmllZHNxAH4ADNn4AyZ0AAR3YWl0c3EAfgAMP0xdhXQADmNvcHkkZGVmYXVsdCQyc3EAfgAMnzJEPnQADSRhc0luc3RhbmNlT2ZzcQB+AAyhT5qjdAAMcHJvZHVjdEFyaXR5c3EAfgAMrYpCxXQABmVxdWFsc3NxAH4ADFNL+O50AAtxdWlja0VuY29kZXNxAH4ADGclXmN0AAxhc0luc3RhbmNlT2ZzcQB+AAyZwjJJdAAMc3luY2hyb25pemVkc3EAfgAMM4LdmHQABGxlZnRzcQB+AAwvPyahdAANJGlzSW5zdGFuY2VPZnNxAH4ADORtY5h0AAZ0dXBsZWRzcQB+AAzljEqQdAAHSHVmZm1hbnNxAH4ADK8z4NV0AAhjYW5FcXVhbHNxAH4ADNy4Kpl0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADOmjAId0AARjaGFyc3EAfgAMuBQG/HQABmRlY29kZXNxAH4ADGe14Jx0AARMZWFmc3EAfgAM1J/4kHQACGNvZGVCaXRzc3EAfgAMBIXUZHQADXByb2R1Y3RQcmVmaXhzcQB+AAzzU0n6dAAFdW50aWxzcQB+AAzWsoCxdAAKZnJlbmNoQ29kZXNxAH4ADPQX6yl0AAlub3RpZnlBbGxzcQB+AAyL3AEJdAALcmVhZFJlc29sdmVzcQB+AAzqxhkOdAAFY2hhcnNzcQB+AAwK6ir/dAAMaXNJbnN0YW5jZU9mc3EAfgAMNHGzI3QABjxpbml0PnNxAH4ADNvuXRl0AAVhcHBseXNxAH4ADP5M6690AA1kZWNvZGVkU2VjcmV0c3EAfgAMJOi/nHQAAj09c3EAfgAMEvSivXQABWNsb25lc3EAfgAMGBck4XQAD21lcmdlQ29kZVRhYmxlc3NxAH4ADAgq9UB0AAV0aW1lc3NxAH4ADPNo+jJ0AAdjb21iaW5lc3EAfgAMmiZunnQADmNvcHkkZGVmYXVsdCQzc3EAfgAMvj6PcnQABGNvcHlzcQB+AAxf3ETIdAAMc3RyaW5nMkNoYXJzc3EAfgAM1GDg6nQACHRvU3RyaW5nc3EAfgAMjocP53QACXNpbmdsZXRvbnNxAH4ADNqLXi10AAIhPXNxAH4ADKItZap0AAhnZXRDbGFzc3NxAH4ADBoL2sF0AAlDb2RlVGFibGVzcQB+AAxHYPjfdAAOY3JlYXRlQ29kZVRyZWVzcQB+AAxF8kE2dAAOY29weSRkZWZhdWx0JDFzcQB+AAz2rUQ8dAAERm9ya3NxAH4ADCXGoJJ0AANCaXRzcQB+AAyykPVvdAACbmVzcQB+AAxDwK/IdAATbWFrZU9yZGVyZWRMZWFmTGlzdHNxAH4ADBdybat0AAhDb2RlVHJlZXNxAH4ADMd0bZF0AAJlcXNxAH4ADId5BKh0AAdjb252ZXJ0c3EAfgAMXh7u1XQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADBmtLgZ0AAVyaWdodHNxAH4ADCGmWoh0AAIjI3NxAH4ADDMwnRd0AAhmaW5hbGl6ZXNxAH4ADFUl1x50AA5wcm9kdWN0RWxlbWVudHNxAH4ADNHAT710AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5wYXRtYXQuSHVmZm1hbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ArQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AlUwACWluaGVyaXRlZHEAfgCVTAAHcGFyZW50c3EAfgCVeHEAfgC0c3EAfgCtAXVxAH4AkAAAAABwc3EAfgCtAXVxAH4AkAAAAABwc3EAfgCtAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4As3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4As3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AzHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AzXNxAH4AwHQAA0FueXNxAH4AxHNxAH4Ax3VxAH4AygAAAAJzcQB+AMx0AAVzY2FsYXEAfgDTcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZwYXRtYXRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVCBvHcvdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAay9Vc2Vycy93b25vb2svU2VhZmlsZS9Db2RpbmcvU2NhbGFQcm9ncmFtbWluZy9GdW5jdGlvbmFsUHJvZ3JhbW1pbmcvQXNzZ240L3BhdG1hdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUI1hH7N1cjminjKGjXr2JJxtrwqM=
+source infos:
+1 items
+/Users/wonook/Seafile/Coding/ScalaProgramming/FunctionalProgramming/Assgn4/patmat/src/test/scala/patmat/HuffmanSuite.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIFjVuB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAcC9Vc2Vycy93b25vb2svU2VhZmlsZS9Db2RpbmcvU2NhbGFQcm9ncmFtbWluZy9GdW5jdGlvbmFsUHJvZ3JhbW1pbmcvQXNzZ240L3BhdG1hdC90YXJnZXQvc2NhbGEtMi4xMS90ZXN0LWNsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIG9bBJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAcC9Vc2Vycy93b25vb2svU2VhZmlsZS9Db2RpbmcvU2NhbGFQcm9ncmFtbWluZy9GdW5jdGlvbmFsUHJvZ3JhbW1pbmcvQXNzZ240L3BhdG1hdC90YXJnZXQvc2NhbGEtMi4xMS90ZXN0LWNsYXNzZXN0AAEv

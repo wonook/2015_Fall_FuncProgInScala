@@ -1,0 +1,28 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(forcomp.AnagramsSuite, sbt.ForkMain$SubclassFingerscan@683e9121, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mAnagramsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: abcd[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: Robert[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentenceOccurrences: abcd e[0m[0m
+[0m[[0minfo[0m] [0m[32m- dictionaryByOccurrences.get: eat[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: married[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: player[0m[0m
+[0m[[0minfo[0m] [0m[32m- subtract: lard - r[0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: [][0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: abba[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentence anagrams: [][0m[0m
+[0m[[0minfo[0m] [0m[32m- sentence anagrams: Linux rulez[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 11 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 53 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 11, Failed 0, Errors 0, Passed 11[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	forcomp.AnagramsSuite[0m

@@ -1,0 +1,36 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(patmat.HuffmanSuite, sbt.ForkMain$SubclassFingerscan@1b254b1, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mHuffmanSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- weight of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- chars of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- string2chars("hello, world")[0m[0m
+[0m[[0minfo[0m] [0m[32m- makeOrderedLeafList for some frequency table[0m[0m
+[0m[[0minfo[0m] [0m[32m- combine of some leaf list[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and encode a very short text should be identity[0m[0m
+[0m[[0minfo[0m] [0m[31m- testing encode function with two item list *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List(1, 1, 0) did not equal List(0, 0, 1) (HuffmanSuite.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[32m- encode b[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and encode[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and quickEncode a very short text should be identity[0m[0m
+[0m[[0minfo[0m] [0m[32m- quickEncode b[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and quickEncode[0m[0m
+[0m[[0minfo[0m] [0m[32m- createCodeTree of a very short text[0m[0m
+[0m[[0minfo[0m] [0m[32m- french code[0m[0m
+[0m[[0minfo[0m] [0m[32m- assignment instructions tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- assignment instructions tree minimal test[0m[0m
+[0m[[0minfo[0m] [0m[32m- createCodeTree should be implemented in terms of times, makeOrderedLeafList, singleton, combine and until[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 17 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 155 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 17[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 16, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[31merror[0m] [0mFailed: Total 17, Failed 1, Errors 0, Passed 16[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	patmat.HuffmanSuite[0m
+[0m[[31merror[0m] [0m(assignment/test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
