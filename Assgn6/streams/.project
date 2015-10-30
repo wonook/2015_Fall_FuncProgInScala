@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>progfun-streams</name>
+  <name>streams</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>
