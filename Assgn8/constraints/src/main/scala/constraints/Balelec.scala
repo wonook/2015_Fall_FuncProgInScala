@@ -44,7 +44,49 @@ object Balelec {
     tasks: List[Task],
     availability: Map[Volunteer, List[Task]],
     maxWorkload: Int
-  ): Option[Map[Task, List[Volunteer]]] = ???
+  ): Option[Map[Task, List[Volunteer]]] = {
+
+    val varsMatrix: Map[(Volunteer, Task), PropVar] =
+      volunteers.flatMap({case v@Volunteer(name) =>
+        tasks.map(t => (v, t) -> propVar(name))
+      }).toMap
+
+
+    val desirableTasks: Seq[Formula] = {
+      val groupByVolunteers = varsMatrix.groupBy(_._1._1).map(_._2)
+      val volunteersWithAvailableTasks = groupByVolunteers.map((bm) => bm.filter((s) => availability.apply(s._1._1).contains(s._1._2)))
+      val propVarsOfEachVolunteers = volunteersWithAvailableTasks.map(_.map(_._2))
+      propVarsOfEachVolunteers.map((e) => e.foldLeft[Formula](false) (_ || _)).toSeq
+    }
+
+    val eachVolunteerHasLessThanMaxWorkload: Seq[Formula] = {
+      val groupByVolunteers = varsMatrix.groupBy(_._1._1).map(_._2)
+      val volunteersWithAvailableTasks = groupByVolunteers.map((bm) => bm.filter((s) => availability.apply(s._1._1).contains(s._1._2)))
+      val propVarsOfEachVolunteers = volunteersWithAvailableTasks.map(_.map(_._2))
+      val combinationOfTwo = propVarsOfEachVolunteers.map(_.toSet.subsets.toList.filter(_.toList.length == maxWorkload+1))
+      combinationOfTwo.map(_.foldLeft[Formula](true)(_ && _.foldLeft[Formula](false)(_ || !_))).toSeq
+    }
+
+    val eachTaskDoneOnce: Seq[Formula] = {
+      val groupByTasks = varsMatrix.groupBy(_._1._2).map(_._2.map(_._2))
+      val combination = groupByTasks.flatMap(_.toSet.subsets.toList.filter(_.toList.length == 2))
+      combination.map(_.foldLeft[Formula](false)(_ || !_)).toSeq
+    }
+
+
+    val allConstraints: Seq[Formula] = desirableTasks ++ eachVolunteerHasLessThanMaxWorkload ++ eachTaskDoneOnce
+
+    val res = solveForSatisfiability(and(allConstraints:_*))
+
+    res.map(model => {
+      tasks.map(task => {
+        val assignedVolunteers = volunteers.filter((v) => model(varsMatrix((v, task))))
+        (task, assignedVolunteers)
+      }).toMap
+    })
+
+
+  }
 
   /**
    * This function takes a list of constraint, and returns a
