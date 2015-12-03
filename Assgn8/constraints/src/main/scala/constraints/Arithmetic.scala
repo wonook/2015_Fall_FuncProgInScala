@@ -18,11 +18,11 @@ object Arithmetic {
    * significant bit (the list is in big-endian form).
    */
   def binary2int(n: List[Boolean]): Int = { //tailrec?
-    def b2iRev(n: List[Boolean]): Int = {
-      if(n.isEmpty) 0
-      else 2 * b2iRev(n.tail) + {if(n.head) 1 else 0}
+    @tailrec def binary2intAcc(acc: Int, n: List[Boolean]): Int = {
+      if(n.isEmpty) acc
+      else binary2intAcc(2*acc + {if(n.head) 1 else 0}, n.tail)
     }
-    b2iRev(n.reverse)
+    binary2intAcc(0, n)
   }
 
   /**
@@ -31,10 +31,13 @@ object Arithmetic {
    * bit. This function should not return unnecessary leading zeros.
    */
   def int2binary(n: Int): List[Boolean] = { //tailrec?
+    @tailrec def int2binaryAcc(acc: List[Boolean], n: Int): List[Boolean] = {
+      if(n == 0) acc
+      else if(n % 2 == 0) int2binaryAcc(false::acc, n/2)
+      else int2binaryAcc(true::acc, n/2)
+    }
     if(n == 0) List(false)
-    else if(n == 1) List(true)
-    else if(n % 2 == 0) int2binary(n/2):::List(false)
-    else int2binary(n/2):::List(true)
+    else int2binaryAcc(List(), n)
   }
 
 
@@ -57,7 +60,7 @@ object Arithmetic {
    * result encoded over two bits: (cOut, s)
    */
   def fullAdder(a: Formula, b: Formula, cIn: Formula): (Formula, Formula) = {
-    ((a && b) || (b && cIn) || (a && cIn), (!a && !b && cIn) || (!a && b && !cIn) || (a && !b && !cIn) || (a && b && cIn))
+    ((a && b) || (b && cIn) || (a && cIn), (a xor b xor cIn))
   }
 
   /**
@@ -72,22 +75,42 @@ object Arithmetic {
    */
   def adder(n1: List[Formula], n2: List[Formula]): (List[Formula], Set[Formula]) = {
     if(n1.length > n2.length) {
-      val (res, summary) = adder(n1.tail, n2)
-      val (cOut, s) = fullAdder(n1.head, false, res.head)
-      (cOut::s::res.tail, summary)
+      adder(n1, false::n2)
+//      val (res, summary) = adder(n1.tail, n2)
+//      val (cOut, s) = fullAdder(n1.head, false, res.head)
+//
+//      val co2: PropVar = propVar()
+//      val s2: PropVar = propVar()
+//      val cs = (co2 iff cOut)
+//      val ss = (s2 iff s)
+//      val newSummary = summary + cs + ss
+//      (cOut::s::res.tail, newSummary)
     } else if(n1.length < n2.length) {
-      val (res, summary) = adder(n1, n2.tail)
-      val (cOut, s) = fullAdder(n2.head, false, res.head)
-      (cOut::s::res.tail, summary)
+      adder(false::n1, n2)
+//      val (res, summary) = adder(n1, n2.tail)
+//      val (cOut, s) = fullAdder(n2.head, false, res.head)
+//
+//      val co2: PropVar = propVar()
+//      val s2: PropVar = propVar()
+//      val cs = (co2 iff cOut)
+//      val ss = (s2 iff s)
+//      val newSummary = summary + cs + ss
+//      (cOut::s::res.tail, newSummary)
     } else {
       (n1, n2) match {
         case(h1::Nil, h2::Nil) =>
           val (cOut, s) = fullAdder(h1, h2, false)
-          (cOut::s::Nil, Set[Formula]())
+          val co2: PropVar = propVar("co2")
+          val s2: PropVar = propVar("s2")
+          val sum = (co2 iff cOut) && (s2 iff s)
+          (cOut::s::Nil, Set[Formula](sum))
         case(h1::h1t, h2::h2t) =>
           val (res, summary) = adder(h1t, h2t)
           val (cOut, s) = fullAdder(h1, h2, res.head)
-          (cOut::s::res.tail, summary)
+          val co2: PropVar = propVar("co2")
+          val s2: PropVar = propVar("s2")
+          val sum = (co2 iff cOut) && (s2 iff s)
+          (cOut::s::res.tail, summary + sum)
         case _ => sys.error("Unexpected case")
       }
     }

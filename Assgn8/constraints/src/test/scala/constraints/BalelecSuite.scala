@@ -117,6 +117,10 @@ class BalelecSuite extends FunSuite {
   }
 
   test("schedule volunteer to several tasks under max workload") {
+    val volunteers = List(v1, v2)
+    val tasks = List(t1, t2)
+    val availability = Map(v1 -> List(t1), v2 -> List(t2))
+    val maxWorkload = 1
     val res = schedule(List(v1), List(t1, t2), Map(v1 -> List(t1, t2)), 2)
     assert(res != None)
     res.foreach(m => {

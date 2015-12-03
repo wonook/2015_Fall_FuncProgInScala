@@ -45,12 +45,10 @@ object Balelec {
     availability: Map[Volunteer, List[Task]],
     maxWorkload: Int
   ): Option[Map[Task, List[Volunteer]]] = {
-
     val varsMatrix: Map[(Volunteer, Task), PropVar] =
       volunteers.flatMap({case v@Volunteer(name) =>
         tasks.map(t => (v, t) -> propVar(name))
       }).toMap
-
 
     val desirableTasks: Seq[Formula] = {
       val groupByVolunteers = varsMatrix.groupBy(_._1._1).map(_._2)
@@ -73,8 +71,12 @@ object Balelec {
       combination.map(_.foldLeft[Formula](false)(_ || !_)).toSeq
     }
 
+    val eachTaskDone: Seq[Formula] = {
+      val groupByTasks = varsMatrix.groupBy(_._1._2).map(_._2.map(_._2))
+      groupByTasks.map(_.foldLeft[Formula](false)(_ || _)).toSeq
+    }
 
-    val allConstraints: Seq[Formula] = desirableTasks ++ eachVolunteerHasLessThanMaxWorkload ++ eachTaskDoneOnce
+    val allConstraints: Seq[Formula] = desirableTasks ++ eachVolunteerHasLessThanMaxWorkload ++ eachTaskDoneOnce ++ eachTaskDone
 
     val res = solveForSatisfiability(and(allConstraints:_*))
 
@@ -84,8 +86,6 @@ object Balelec {
         (task, assignedVolunteers)
       }).toMap
     })
-
-
   }
 
   /**
