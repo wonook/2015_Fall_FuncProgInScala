@@ -15,6 +15,7 @@ javaOptions += "-Xmx2G"
 
 parallelExecution in Test := false
 
+connectInput in run := true
 
 // See documentation in ProgFunBuild.scala
 projectDetailsMap := {
