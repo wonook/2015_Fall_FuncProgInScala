@@ -1,0 +1,167 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(interpreter.LispSuite, sbt.ForkMain$SubclassFingerscan@6ccf46a3, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mLispSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- addition[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr1 / string2lisp[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr1 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr2 / string2lisp[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr2 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr3 / string2lisp[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr3 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr4 / string2lisp[0m[0m
+[0m[[0minfo[0m] [0m[32m- expr4 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- defSugar1 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- defSugar2 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- defSugar3 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- defSugar4 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- caseSugar1 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- caseSugar2 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- caseSugar3 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- caseSugar4 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- caseSugar5 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[32m- sugar1 / evaluate[0m[0m
+[0m[[0minfo[0m] [0m[31m- differencesLisp1 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- differencesLisp2 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- differencesLisp3 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- differencesLisp4 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- differencesLisp5 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- rebuildListLisp1 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- rebuildListLisp2 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- rebuildListLisp3 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- rebuildListLisp4 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- rebuildListLisp5 / evaluate *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.RuntimeException: undefined: ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.sys.package$.error(package.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$EmptyEnvironment$.lookup(Lisp.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at interpreter.Lisp$Environment$$anon$1.lookup(Lisp.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 29 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 851 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 29[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 19, failed 10, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 10 TESTS FAILED ***[0m[0m
+[0m[[31merror[0m] [0mFailed: Total 29, Failed 10, Errors 0, Passed 19[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	interpreter.LispSuite[0m
+[0m[[31merror[0m] [0m(assignment/test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
